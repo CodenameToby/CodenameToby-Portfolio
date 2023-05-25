@@ -1,11 +1,11 @@
-body{
+/* body{
     background-color: lightblue;
     display: flex;
-    flex-direction: wrap   ;
-}
+    flex-direction: wrap;
+} */
 
 main{
-    flex-direction: wrap;
+    
 }
 /* The header should have my name on the left and stylized
  the welcome sentence, and the intro sentence centered, on the body b/g and in same font as name
@@ -26,6 +26,7 @@ and the nav bar centered, with a darker background and white text with courier f
     color: brown;
     width: 33%;
     position: static;
+    margin: 5px;
 }
 
 .projects {
@@ -34,6 +35,7 @@ and the nav bar centered, with a darker background and white text with courier f
     color: brown;
     width: 33%;
     position: static;
+    margin: 5px;
 }
 
 #avatar{
