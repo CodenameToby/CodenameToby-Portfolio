@@ -1,3 +1,42 @@
 body{
     background-color: lightblue;
+    display: flex;
+    flex-direction: wrap   ;
+}
+
+main{
+    flex-direction: wrap;
+}
+/* The header should have my name on the left and stylized
+ the welcome sentence, and the intro sentence centered, on the body b/g and in same font as name
+and the nav bar centered, with a darker background and white text with courier font.
+  */
+
+.header{
+    color: brown;
+}
+
+.topnav{
+    
+}
+
+#firstproject {
+    border: solid;
+    border-color: burlywood;
+    color: brown;
+    width: 33%;
+    position: static;
+}
+
+.projects {
+    border: solid;
+    border-color: burlywood;
+    color: brown;
+    width: 33%;
+    position: static;
+}
+
+#avatar{
+    max-width: 100%;
+    max-width: auto;
 }

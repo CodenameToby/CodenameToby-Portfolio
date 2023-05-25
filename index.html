@@ -7,34 +7,47 @@
     <link rel="stylesheet"  href="style.css" />
   </head>
   <body>
+<!-- Header containts a title with a breif description of the page and a clickable nav bar to the relevant sections -->
     <header>
-        <h1>CodenameToby Portfolio</h1>
-        <h2>Welcome to the home of the work of CodenameToby. </h2>
-        <nav>About Me:</nav>
-        <nav>Contact Info</nav>
-        <nav>Projects</nav>
+        <section class="header"> 
+          <h1>CodenameToby </h1>
+          <h2>Welcome to a portfolio displaying the work of CodenameToby! </h2>
+          <h3>Feel free to poke around through the projects and reach out if anything is of interest to you</h3>
+        </section>
+        <img src="assets/web-banner-mountains-forest-198430664.jpg">
+        <nav class="topnav">
+          <a href="#">About Me</a>
+          <a href="#contact"> Info </a>
+          <a href="#first-project">Projects </a>
+        </nav>
     </header>
-    <aside>
-        <p>Pic of me</p>
-        <p>About Me:</p>
-        <p>Likes:</p>
-        <p>Dislikes:</p>
+<!-- Aside has a breif info about me and stays in its spot. Nothing clickable.-->
+    <aside  class="about-me"> Get to know the coder
+        <li id="avatar"><img src="assets/Henry.jpg">This is my mascot, Henry. I hope to have this energy always.</li>
+        <li>About Me: I am currently learning how to build websites.</li>
+        <li>Likes: Long walks on the beach, pina coladas, the usual.</li>
+        <li>Dislikes: Mean people, people who are too nice.</li>
     </aside>
+<!-- main section has one project with a larger display, and two other projects in smaller display boxes. 
+All clickable to the deployed sites  -->
     <main>
-        <article>
-            Project 1
+        <article id="firstproject">
+            <a href="https://codenametoby.github.io/SEO-accessibility/">SEO-Accessibility</a>
+            <p>Example of a completed assignment from Bootcamp</p>
         </article>
-        <article>
+        <article class="projects">
             Project 2
         </article>
-        <article>
+        <article class="projects">
             Project 3
         </article>
     </main>
-    
-    
   </body>
-
-  <footer>
-    Contact Info in sticky box that will cover about me as you scroll down.
+<!-- Contact Info in sticky box that will cover about me as you scroll down. -->
+  <footer class="contact">
+    <nav>
+      <a title="702-267-8629">Hover for phone</a>
+      <a href="https://github.com/CodenameToby">Github</a>
+      <a href="mailto:tobywarburton10@gmail.com">Email Me</a>
+    </nav>
   </footer>
