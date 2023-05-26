@@ -1,31 +1,34 @@
-/* body{
+body{
     background-color: lightblue;
-    display: flex;
-    flex-direction: wrap;
-} */
+}
+@media screen and (min-width: 1000px){
+    body{background-color:lightcoral;}
+}
 
 main{
-    
+    display: flex;
+    flex-direction: column;
+    column-count: 3;
+    font-size: large;
 }
-/* The header should have my name on the left and stylized
- the welcome sentence, and the intro sentence centered, on the body b/g and in same font as name
-and the nav bar centered, with a darker background and white text with courier font.
+/* The header should have my name on the left and a intro sentence, with the nav bar underneath
   */
 
 .header{
-    color: brown;
+    color: darkblue;
 }
 
 .topnav{
-    
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #firstproject {
     border: solid;
     border-color: burlywood;
-    color: brown;
-    width: 33%;
-    position: static;
+    color: darkblue;
+    width: 50%;
     margin: 5px;
 }
 
@@ -39,6 +42,12 @@ and the nav bar centered, with a darker background and white text with courier f
 }
 
 #avatar{
-    max-width: 100%;
-    max-width: auto;
+    max-width: 10%;
+    max-width: 10%;
 }
+
+#contact {
+    align-items: center;
+}
+
+
